@@ -18,5 +18,11 @@
     <ClCompile Include="ChooseNumberRecursion.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="FindWord.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Picnic.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
