@@ -131,6 +131,7 @@
     <ClCompile Include="CoverGameBoard.cpp" />
     <ClCompile Include="FindWord.cpp" />
     <ClCompile Include="Picnic.cpp" />
+    <ClCompile Include="TSP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
