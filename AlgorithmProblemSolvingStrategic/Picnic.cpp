@@ -65,7 +65,7 @@ int StudentLineCount(stack<Relation>& relations, int first) {
 	return count;
 }
 
-int main(void) {
+/*int main(void) {
 	int testcase;
 	cin >> testcase;
 	for (int i = 0; i < testcase; i++) {
@@ -80,4 +80,4 @@ int main(void) {
 		stack<Relation> stack;
 		cout << StudentLineCount(stack, 0) << endl;
 	}
-}
+}*/
