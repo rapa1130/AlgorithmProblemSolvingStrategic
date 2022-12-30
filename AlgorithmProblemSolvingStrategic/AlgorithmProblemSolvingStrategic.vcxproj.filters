@@ -30,5 +30,8 @@
     <ClCompile Include="TSP.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CLOCKSYNC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
