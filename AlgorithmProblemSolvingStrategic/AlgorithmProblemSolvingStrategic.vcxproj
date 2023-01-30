@@ -137,6 +137,7 @@
     <ClCompile Include="karatsuba.cpp" />
     <ClCompile Include="Picnic.cpp" />
     <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="QuadTree_Answer.cpp" />
     <ClCompile Include="TSP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

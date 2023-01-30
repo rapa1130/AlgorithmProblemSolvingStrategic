@@ -54,7 +54,7 @@ void FlipHorTree(QuadTree& nowTree) {
 }
 
 void GetTree(QuadTree & nowTree, const string & str, int& nowStrIndex) {
-
+	
 	for (; nowStrIndex < str.size() && str[nowStrIndex] != '\0';) {
 		switch (str[nowStrIndex]) {
 		case 'x':
