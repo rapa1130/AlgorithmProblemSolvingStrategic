@@ -21,6 +21,7 @@ bool IsAllTwelveClock(vector<int>& nowClockState);
 
 const int INF = 987654321;
 
+/*
 int main(void) {
 	int testcase;
 	cin >> testcase;
@@ -33,7 +34,7 @@ int main(void) {
 		}
 		cout << minCount << endl;
 	}
-}
+}*/
 int SwitchCount(vector<int>& nowClockState, int nowSwitch,int count) {
 	if (nowSwitch >= switchToClocks.size()) {
 		if (IsAllTwelveClock(nowClockState)) {

@@ -127,11 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BigMultiplication.cpp" />
     <ClCompile Include="ChooseNumberRecursion.cpp" />
     <ClCompile Include="CLOCKSYNC.cpp" />
     <ClCompile Include="CoverGameBoard.cpp" />
+    <ClCompile Include="FastPower.cpp" />
+    <ClCompile Include="fastSum.cpp" />
     <ClCompile Include="FindWord.cpp" />
+    <ClCompile Include="karatsuba.cpp" />
     <ClCompile Include="Picnic.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
     <ClCompile Include="TSP.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
