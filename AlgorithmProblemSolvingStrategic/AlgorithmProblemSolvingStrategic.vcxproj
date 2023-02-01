@@ -133,6 +133,7 @@
     <ClCompile Include="CoverGameBoard.cpp" />
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="fastSum.cpp" />
+    <ClCompile Include="FENCE.cpp" />
     <ClCompile Include="FindWord.cpp" />
     <ClCompile Include="karatsuba.cpp" />
     <ClCompile Include="Picnic.cpp" />
