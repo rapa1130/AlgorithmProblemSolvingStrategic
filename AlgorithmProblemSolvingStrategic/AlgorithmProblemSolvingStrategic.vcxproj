@@ -131,15 +131,21 @@
     <ClCompile Include="ChooseNumberRecursion.cpp" />
     <ClCompile Include="CLOCKSYNC.cpp" />
     <ClCompile Include="CoverGameBoard.cpp" />
+    <ClCompile Include="FANMEETING.cpp" />
     <ClCompile Include="FastPower.cpp" />
     <ClCompile Include="fastSum.cpp" />
     <ClCompile Include="FENCE.cpp" />
     <ClCompile Include="FindWord.cpp" />
     <ClCompile Include="karatsuba.cpp" />
+    <ClCompile Include="karatsuba2.cpp" />
     <ClCompile Include="Picnic.cpp" />
     <ClCompile Include="QuadTree.cpp" />
     <ClCompile Include="QuadTree_Answer.cpp" />
     <ClCompile Include="TSP.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Karatsuba.h" />
+    <ClInclude Include="karatsuba2.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

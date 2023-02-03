@@ -1,13 +1,8 @@
 #include<iostream>
 #include<vector>
+#include"Karatsuba.h"
 using namespace std;
 
-vector<int> KaratsubaAlgorithm(const vector<int>& num1, const vector<int>& num2);
-void Normalize(vector<int>& numbers);
-vector<int> Multiply(const vector<int>& num1, const  vector<int>& num2);
-vector<int> ReverseVector(const vector<int>& vec);
-vector<int> GetNumber();
-string NumberToStr(const vector<int>& numbers);
 void AddTo(vector<int>& a,const vector<int>& b, int count) {
 	//더한다음에 10^count만큼 곱하기
 	cout << NumberToStr(a) << "+" << NumberToStr(b) << "*10^" << count << "=";
@@ -26,6 +21,7 @@ void AddTo(vector<int>& a,const vector<int>& b, int count) {
 	a = ReverseVector(reversed);
 	cout << NumberToStr(a) << endl;
 }
+
 void subFrom(vector<int>& a, const vector<int>& b) {
 	for (int i = a.size(); i < b.size(); i++) {
 		a.push_back(0);
@@ -116,7 +112,7 @@ vector<int> KaratsubaAlgorithm(const vector<int>& a, const vector<int>& b) {
 	if (an == 0 || bn == 0) return vector<int>();
 	if (an < 2)return Multiply(a, b);
 	int half = an / 2;
-
+	
 	vector<int> a0(a.begin(), a.begin()+half);
 	vector<int> a1(a.begin() + half, a.end());
 	vector<int> b0(b.begin(), b.begin() + min<int>(half, b.size()));
