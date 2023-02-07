@@ -16,6 +16,9 @@
     <Filter Include="소스 파일\7 Divide And Conquer">
       <UniqueIdentifier>{cdb86949-cec5-46d0-91fe-3c765daf22f2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8 Dynamic Programming">
+      <UniqueIdentifier>{566fe7fc-da10-4c00-8343-3e583d761ee3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ChooseNumberRecursion.cpp">
@@ -62,6 +65,12 @@
     </ClCompile>
     <ClCompile Include="karatsuba2.cpp">
       <Filter>소스 파일\7 Divide And Conquer</Filter>
+    </ClCompile>
+    <ClCompile Include="Binomail Coefficient.cpp">
+      <Filter>소스 파일\8 Dynamic Programming</Filter>
+    </ClCompile>
+    <ClCompile Include="JUMPGAME.cpp">
+      <Filter>소스 파일\8 Dynamic Programming</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

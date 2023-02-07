@@ -136,7 +136,7 @@ void PrintVector2(const vector<string>& vec);
 	cout << "count:" << count;
 }*/
 
-int main(void) {
+/*int main(void) {
 	int testcase; cin >> testcase;
 	while (testcase-- > 0) {
 		string idol;
@@ -156,7 +156,7 @@ int main(void) {
 	}
 	return 0;
 
-}
+}*/
 
 
 vector<string> RecursiveTestcase(string& now, const int size) {

@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="BigMultiplication.cpp" />
+    <ClCompile Include="Binomail Coefficient.cpp" />
     <ClCompile Include="ChooseNumberRecursion.cpp" />
     <ClCompile Include="CLOCKSYNC.cpp" />
     <ClCompile Include="CoverGameBoard.cpp" />
@@ -136,6 +137,7 @@
     <ClCompile Include="fastSum.cpp" />
     <ClCompile Include="FENCE.cpp" />
     <ClCompile Include="FindWord.cpp" />
+    <ClCompile Include="JUMPGAME.cpp" />
     <ClCompile Include="karatsuba.cpp" />
     <ClCompile Include="karatsuba2.cpp" />
     <ClCompile Include="Picnic.cpp" />
